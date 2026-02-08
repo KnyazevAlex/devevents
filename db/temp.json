@@ -1,0 +1,74 @@
+[
+  {
+    "uniqueId": "dev-001",
+    "imagePath": "/placeholder.png",
+    "location": "Moscone Center, San Francisco",
+    "name": "React Universe Conf",
+    "date": "2026-05-12",
+    "time": "09:00"
+  },
+  {
+    "uniqueId": "dev-002",
+    "imagePath": "/placeholder.png",
+    "location": "Online / Discord",
+    "name": "Global Open Source Hackathon",
+    "date": "2026-06-20",
+    "time": "10:00"
+  },
+  {
+    "uniqueId": "dev-003",
+    "imagePath": "/placeholder.png",
+    "location": "The Bakery Tech Hub, London",
+    "name": "TypeScript & Tea Meetup",
+    "date": "2026-07-05",
+    "time": "18:30"
+  },
+  {
+    "uniqueId": "dev-004",
+    "imagePath": "/placeholder.png",
+    "location": "Convention Center, Austin",
+    "name": "Rust Systems Summit",
+    "date": "2026-08-14",
+    "time": "08:45"
+  },
+  {
+    "uniqueId": "dev-005",
+    "imagePath": "/placeholder.png",
+    "location": "Grand Hotel, Amsterdam",
+    "name": "Next.js Edge Workshop",
+    "date": "2026-09-22",
+    "time": "13:00"
+  },
+  {
+    "uniqueId": "dev-006",
+    "imagePath": "/placeholder.png",
+    "location": "Tech Park, Bangalore",
+    "name": "Backend Scalability Forum",
+    "date": "2026-10-10",
+    "time": "11:00"
+  },
+  {
+    "uniqueId": "dev-007",
+    "imagePath": "/placeholder.png",
+    "location": "Station F, Paris",
+    "name": "AI & LLM Integration Day",
+    "date": "2026-11-03",
+    "time": "09:30"
+  },
+  {
+    "uniqueId": "dev-008",
+    "imagePath": "/placeholder.png",
+    "location": "Digital Nomad Lounge, Bali",
+    "name": "Web3 Builders Retreat",
+    "date": "2026-12-01",
+    "time": "16:00"
+  },
+  {
+    "uniqueId": "dev-009",
+    "imagePath": "/placeholder.png",
+    "location": "The Warehouse, Seattle",
+    "name": "Cybersecurity CTF Finals",
+    "date": "2026-12-15",
+    "time": "19:00"
+  }
+]
