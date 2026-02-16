@@ -5,7 +5,14 @@
     "location": "Moscone Center, San Francisco",
     "name": "React Universe Conf",
     "date": "2026-05-12",
-    "time": "09:00"
+    "time": "09:00",
+    "ticketPrice": "$499",
+    "description": "Join thousands of developers at the Moscone Center for a deep dive into the React ecosystem. This year's conference focuses on the stability of React 19, the evolution of Server Components, and real-world case studies on migrating massive codebases to modern architectural patterns. Attendees will engage with core team members and industry leaders through interactive Q&A sessions and hands-on networking hubs designed to solve complex frontend scaling issues.",
+    "schedule": [
+      { "time": "09:00", "activity": "Keynote: The Future of React", "speaker": "Sophie Alpert" },
+      { "time": "11:00", "activity": "Panel: Server Components in Production", "speaker": "Dan Abramov & Kent C. Dodds" },
+      { "time": "14:00", "activity": "Workshop: Advanced State Management", "speaker": "Daishi Kato" }
+    ]
   },
   {
     "uniqueId": "dev-002",
@@ -13,7 +20,14 @@
     "location": "Online / Discord",
     "name": "Global Open Source Hackathon",
     "date": "2026-06-20",
-    "time": "10:00"
+    "time": "10:00",
+    "ticketPrice": "$0",
+    "description": "A 48-hour global marathon bringing together contributors of all skill levels to improve the open-source software we rely on every day. Participants will be matched with mentors from major projects in the JavaScript, Python, and Rust communities. The event focuses on closing critical security issues, improving documentation, and building new features that promote digital equity and accessibility across the global tech landscape.",
+    "schedule": [
+      { "time": "10:00", "activity": "Kickoff & Team Matching", "speaker": "Quincy Larson" },
+      { "time": "13:00", "activity": "Mentor Office Hours", "speaker": "Sarah Drasner" },
+      { "time": "19:00", "activity": "Mid-point Progress Sync", "speaker": "Angie Jones" }
+    ]
   },
   {
     "uniqueId": "dev-003",
@@ -21,7 +35,14 @@
     "location": "The Bakery Tech Hub, London",
     "name": "TypeScript & Tea Meetup",
     "date": "2026-07-05",
-    "time": "18:30"
+    "time": "18:30",
+    "ticketPrice": "$20",
+    "description": "An intimate evening designed for the London developer community to discuss the nuances of static typing over artisanal tea. This meetup features three lightning talks covering advanced utility types, the integration of TypeScript with legacy Express apps, and a look at the latest compiler API features. It's the perfect environment for networking and sharing project blockers with some of the brightest minds in the UK's TypeScript scene.",
+    "schedule": [
+      { "time": "18:30", "activity": "Tea Tasting & Networking", "speaker": "Host: Local Team" },
+      { "time": "19:15", "activity": "Lightning Talks", "speaker": "Josh Goldberg" },
+      { "time": "20:30", "activity": "Open Floor Q&A", "speaker": "Michał Miszczyszyn" }
+    ]
   },
   {
     "uniqueId": "dev-004",
@@ -29,7 +50,14 @@
     "location": "Convention Center, Austin",
     "name": "Rust Systems Summit",
     "date": "2026-08-14",
-    "time": "08:45"
+    "time": "08:45",
+    "ticketPrice": "$350",
+    "description": "The Rust Systems Summit is a technical deep-dive into high-performance, memory-safe systems programming. We will explore the latest advancements in the Borrow Checker, asynchronous programming patterns, and the growing role of Rust in the Linux kernel and embedded systems. This summit is specifically tailored for engineers looking to push the boundaries of performance and reliability in mission-critical infrastructure.",
+    "schedule": [
+      { "time": "08:45", "activity": "Opening Remarks", "speaker": "Ashley Williams" },
+      { "time": "10:00", "activity": "Deep Dive: Memory Safety at Scale", "speaker": "Niko Matsakis" },
+      { "time": "13:30", "activity": "Embedded Rust Showcase", "speaker": "James Munns" }
+    ]
   },
   {
     "uniqueId": "dev-005",
@@ -37,7 +65,14 @@
     "location": "Grand Hotel, Amsterdam",
     "name": "Next.js Edge Workshop",
     "date": "2026-09-22",
-    "time": "13:00"
+    "time": "13:00",
+    "ticketPrice": "$215",
+    "description": "Transition from standard SSR to the Edge. This intensive workshop focuses on leveraging the Next.js Edge Runtime to provide personalized, low-latency experiences for global users. You will learn how to implement complex middleware logic, handle dynamic routing at the edge, and optimize your data-fetching strategies to achieve near-instantaneous Page Insights scores while maintaining a highly scalable and cost-effective cloud architecture.",
+    "schedule": [
+      { "time": "13:00", "activity": "Intro to Edge Runtime", "speaker": "Lee Robinson" },
+      { "time": "14:30", "activity": "Live Coding: Middleware Patterns", "speaker": "Delba de Oliveira" },
+      { "time": "16:30", "activity": "Performance Auditing Session", "speaker": "Lydia Hallie" }
+    ]
   },
   {
     "uniqueId": "dev-006",
@@ -45,7 +80,14 @@
     "location": "Tech Park, Bangalore",
     "name": "Backend Scalability Forum",
     "date": "2026-10-10",
-    "time": "11:00"
+    "time": "11:00",
+    "ticketPrice": "$30",
+    "description": "As user bases grow, backend challenges multiply. This forum gathers lead architects from top tech firms to discuss the shift from monoliths to microservices, the implementation of event-driven architectures, and the nuances of horizontal scaling. Expect technical sessions on Kubernetes orchestration, database sharding strategies, and observability tools that help maintain high availability during massive global traffic spikes.",
+    "schedule": [
+      { "time": "11:00", "activity": "Microservices vs Monoliths Debate", "speaker": "Kelsey Hightower" },
+      { "time": "13:00", "activity": "Networking Lunch", "speaker": "N/A" },
+      { "time": "14:30", "activity": "Observability & Monitoring Lab", "speaker": "Charity Majors" }
+    ]
   },
   {
     "uniqueId": "dev-007",
@@ -53,7 +95,14 @@
     "location": "Station F, Paris",
     "name": "AI & LLM Integration Day",
     "date": "2026-11-03",
-    "time": "09:30"
+    "time": "09:30",
+    "ticketPrice": "$130",
+    "description": "Explore the practical side of the AI revolution. Rather than focusing on high-level theory, this day-long event focuses on how to actually integrate Large Language Models into existing software products. Sessions cover Retrieval-Augmented Generation (RAG) techniques, cost-optimization for API calls, and the ethical considerations of deploying AI-driven features to production. This is a must-attend for product engineers and CTOs.",
+    "schedule": [
+      { "time": "09:30", "activity": "The RAG Architecture Blueprint", "speaker": "Harrison Chase" },
+      { "time": "11:30", "activity": "Workshop: Fine-tuning for SaaS", "speaker": "Greg Brockman" },
+      { "time": "15:00", "activity": "AI Ethics & Safety Panel", "speaker": "Timnit Gebru" }
+    ]
   },
   {
     "uniqueId": "dev-008",
@@ -61,7 +110,14 @@
     "location": "Digital Nomad Lounge, Bali",
     "name": "Web3 Builders Retreat",
     "date": "2026-12-01",
-    "time": "16:00"
+    "time": "16:00",
+    "ticketPrice": "$600",
+    "description": "Combine professional growth with the serenity of Bali. This retreat is designed for serious Web3 developers to step back from the screen and discuss the long-term vision of decentralized protocols. Topics include the evolution of Layer 2 solutions, cross-chain interoperability, and the future of Governance DAOs. The schedule balances high-level brainstorming sessions with community-building activities in a tropical, collaborative setting.",
+    "schedule": [
+      { "time": "16:00", "activity": "Sunset Protocol Discussion", "speaker": "Vitalik Buterin" },
+      { "time": "18:00", "activity": "DAO Governance Workshop", "speaker": "Austin Griffith" },
+      { "time": "20:00", "activity": "Networking Dinner", "speaker": "N/A" }
+    ]
   },
   {
     "uniqueId": "dev-009",
@@ -69,6 +125,13 @@
     "location": "The Warehouse, Seattle",
     "name": "Cybersecurity CTF Finals",
     "date": "2026-12-15",
-    "time": "19:00"
+    "time": "19:00",
+    "ticketPrice": "$50",
+    "description": "The final showdown of a year-long competitive hacking series. Watch the top-ranked security researchers and penetration testers face off in a live environment. The challenges involve real-world vulnerabilities in web applications, network protocols, and cryptographic systems. Spectators can follow the action on live leaderboards with expert commentary, making this a thrilling educational event for security enthusiasts.",
+    "schedule": [
+      { "time": "19:00", "activity": "Tournament Briefing", "speaker": "John Hammond" },
+      { "time": "20:00", "activity": "Live Hacking: Phase 1", "speaker": "Live Competitors" },
+      { "time": "22:00", "activity": "Awards Ceremony", "speaker": "Parisa Tabriz" }
+    ]
   }
 ]
