@@ -1,8 +1,7 @@
 import Header from "@/components/client/header"
-import NavBar from "@/components/client/sideNav"
 
 import type { Metadata } from "next";
-import { Lexend } from "next/font/google";
+import { Lexend, Inter } from "next/font/google";
 import "./globals.css";
 
 
@@ -10,8 +9,6 @@ const lexendFont = Lexend({
   variable: "--font-lexend",
   subsets: ["latin"],
 });
-
-
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lexendFont.variable} flex flex-col h-screen bold  antialiased text-shadow-sm text-shadow-black`}
+        className={`${lexendFont.variable} flex flex-col h-screen bold  antialiased text-shadow-sm `}
       >
         <Header />
 
