@@ -13,16 +13,20 @@ const {id} = await params
 
 const currEvent = data.find((event => event.uniqueId === id))
 
+if(!currEvent) return <h1 className="text-center">Sorry this page doesn't exist...</h1>
 
 return(
+
     <div className="flex h-screen justify-center items-center  relative">
+
       <Image
-      src={currEvent?.imagePath!}
+      src={currEvent!.imagePath}
       alt="Event Cover"
       width={900}
       height={400}
       className="rounded-xl absolute right-40 top-25 max-sm:hidden sm:w-70 sm:right-0 md:w-80 md:right-5 lg:w-140 2xl:w-150 "
        />
+       
        <div className="mt-8  border-slate-100 pt-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         
@@ -105,6 +109,7 @@ return(
       </div>
     </div>
     </div>
+        
 )
 
 }
